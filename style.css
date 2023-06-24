@@ -54,13 +54,14 @@ body {
   margin-top: 10px;
 }
 .intro button {
-  padding: 10px 20px;
+  padding: 10px 25px;
   background-color: #3882f6;
   color: #f9faf8;
   border: none;
   outline: none;
   cursor: pointer;
   margin-top: 20px;
+  border-radius: 6px;
 }
 .banner {
   width: 40%;
