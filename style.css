@@ -6,8 +6,159 @@
 body {
   font-family: "Roboto", sans-serif;
 }
+.hero-section {
+  background-color: #1f2937;
+  color: white;
+  padding: 10px;
+}
+.container {
+  width: 80%;
+  margin: 30px auto;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo a {
+  text-decoration: none;
+  color: white;
+}
 
-h1 {
-  font-size: 90px;
-  color: limegreen;
+.lists {
+  list-style-type: none;
+  display: inline;
+  margin-right: 30px;
+}
+.lists a {
+  text-decoration: none;
+  color: white;
+}
+.hero {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.intro {
+  width: 50%;
+}
+.intro h1 {
+  font-size: 48px;
+  font-weight: 900;
+  color: #f9faf8;
+}
+.intro p {
+  font-size: 18px;
+  color: #f9faf8;
+  margin-top: 10px;
+}
+.intro button {
+  padding: 10px 20px;
+  background-color: #3882f6;
+  color: #f9faf8;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  margin-top: 20px;
+}
+.banner {
+  width: 40%;
+}
+.banner img {
+  width: 100%;
+}
+
+.info h1 {
+  text-align: center;
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: 900;
+}
+.team-flex {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 20px;
+}
+.card {
+}
+.avatar {
+  width: 150px;
+  height: 150px;
+}
+.avatar img {
+  width: 100%;
+  height: 100%;
+  border: 2px solid #3882f6;
+  border-radius: 10px;
+}
+.user-info {
+  width: 150px;
+  text-align: center;
+  padding: 5px;
+}
+.user-info p {
+  font-size: 14px;
+  color: #1f2937;
+  margin-top: 5px;
+  font-weight: 500;
+}
+
+.quote {
+  background: #e5e7eb;
+  padding: 40px;
+  margin: 40px 0px;
+}
+.text {
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: 300;
+}
+.author {
+  font-size: 18px;
+  text-align: right;
+  margin-top: 20px;
+  font-weight: 700;
+}
+
+.subscribe {
+  background: #3882f6;
+  color: #f9faf8;
+  padding: 40px;
+  width: 80%;
+  margin: 80px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 10px;
+}
+.sub-text h1 {
+  font-size: 36px;
+  color: #f9faf8;
+}
+.sub-text p {
+  font-size: 18px;
+}
+.sub-btn button {
+  padding: 10px 30px;
+  background: none;
+  border: 2px solid #f9faf8;
+  color: #f9faf8;
+  text-transform: capitalize;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.5s ease-in;
+  font-weight: 700;
+}
+.sub-btn button:hover {
+  background: #f9faf8;
+  color: #1f2937;
+}
+.footer {
+  background: #1f2937;
+  color: #f9faf8;
+  padding: 30px;
+  text-align: center;
+  letter-spacing: 1px;
 }
